@@ -17,7 +17,7 @@ module "network_host" {
 
 module "network" {
   source  = "app.terraform.io/AWSDemoDarnoldTFE/network/aws"
-  version = "3.0.8"
+  version = "3.1.0"
 
   availability_zones = ["us-east-1a"]
   key_name = "tfe-demos-darnold"
