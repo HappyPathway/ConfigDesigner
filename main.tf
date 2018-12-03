@@ -19,7 +19,7 @@ module "network" {
   source  = "app.terraform.io/AWSDemoDarnoldTFE/network/aws"
   version = "3.0.8"
 
-  availability_zones = "us-east-1a"
+  availability_zones = ["us-east-1a"]
   key_name = "tfe-demos-darnold"
   network_name = "ConfigDesigner"
   region = "us-east-1"
